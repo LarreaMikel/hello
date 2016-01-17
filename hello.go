@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+        "fmt"
+        "stringutil"
+)
+
 
 func main() {
-    fmt.Printf("¡Hola Mundo Git!\n")
+    fmt.Printf(stringutil.Reverse("\n¡Hola Mundo Git!"))
 }
